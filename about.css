@@ -1,0 +1,48 @@
+
+.about{
+    background: url("img/about.jpg");
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position:top;
+   
+
+}
+
+.container{
+    position: absolute;
+    height: 60vh;
+    width: 30%;
+    background: rgb(0, 0, 0,.6);
+    top:20%;
+    left: 35%;
+    transform: translate((-50%,-50%));
+    color: white;
+    padding-top: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+
+}
+.container h1{
+    color: #03a9f4;
+}
+.container p{
+    margin-top: 20px;
+}
+.about-detail{
+    margin: 50px 10px 10px 0px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#03a9f4 ;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
